@@ -13,3 +13,6 @@ Cat.destroy_all
 
 cat1 = Cat.create!(birth_date: "1995-12-18", color: 'Black', name: 'deep', sex: 'M', description: "it is deep the cat")
 cat2 = Cat.create!(birth_date: "1994-1-11", color: 'Red', name: 'hansaem', sex: 'F', description: "it is hansaem the cat")
+
+rental1 = CatRentalRequest.create!(cat_id: 1, start_date: "2021-7-1", end_date: "2021-7-23", status: "APPROVED")
+rental2 = CatRentalRequest.create!(cat_id: 1, start_date: "2021-7-25", end_date: "2021-7-24", status: "PENDING")
