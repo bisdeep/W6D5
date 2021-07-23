@@ -11,5 +11,5 @@
 Cat.destroy_all
 
 
-cat1 = Cat.create!(birth_date: "1995-12-18", color: 'black', name: 'deep', sex: 'M', description: "it is deep the cat")
-cat2 = Cat.create!(birth_date: "1994-1-11", color: 'red', name: 'hansaem', sex: 'F', description: "it is hansaem the cat")
+cat1 = Cat.create!(birth_date: "1995-12-18", color: 'Black', name: 'deep', sex: 'M', description: "it is deep the cat")
+cat2 = Cat.create!(birth_date: "1994-1-11", color: 'Red', name: 'hansaem', sex: 'F', description: "it is hansaem the cat")

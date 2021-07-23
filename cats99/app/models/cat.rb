@@ -3,7 +3,7 @@ class Cat < ApplicationRecord
 
 
     validates :birth_date, :name, :sex, :description, presence: true
-    validates :color, presence: true, inclusion: {in: %w(red black blue white green yellow), message: "%{value} is invalid color"}
+    validates :color, presence: true, inclusion: {in: %w(Red Black Blue White Green Yellow), message: "%{value} is invalid color"}
 
 
     def age
